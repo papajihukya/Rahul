@@ -401,8 +401,7 @@ def handle_attack(message):
 
     user_id = str(message.chat.id)
     if user_id not in allowed_user_ids:
-        bot.reply_to(message, "❌ 𝙄𝙏𝙉𝘼 𝙏𝙐𝙈𝙃𝙀 𝘽𝙃𝙄 𝙊𝙏𝘼 𝙃𝙊𝙂𝘼.. 𝘽𝙄𝙉𝘼 𝙈𝙐𝙏𝙏𝙃𝙀 𝙈𝘼𝙍𝙀 𝙉𝘼𝙃𝙄 𝘾𝙃𝙇𝙀𝙂𝘼 🦚 
-🅑︎🅤︎🅨︎  - @TRUSTVIP_MOD0")
+        bot.reply_to(message, "❌ 𝙄𝙏𝙉𝘼 𝙏𝙐𝙈𝙃𝙀 BHI PTA HOGA 𝙈𝙐𝙏𝙏𝙃𝙀 𝙈𝘼𝙍𝙀 𝙉𝘼𝙃𝙄 𝘾𝙃𝙇𝙀𝙂𝘼 🦚:- @TRUSTVIP_MOD0")
         return
 
     # Parse the command
