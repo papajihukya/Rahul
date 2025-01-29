@@ -7,7 +7,7 @@ import random
 import threading
 
 # Put Your Telegram Bot Token Here
-bot = telebot.TeleBot('6878109155:AAGG2ozAyqdcosafpEbpxxSV7CjYCa-nWi0')
+bot = telebot.TeleBot('6878109155:AAG6P7zJFwA5orUAXBD2JVMeGU3YlQbauys')
 
 # Admin User ID
 admin_id = ["7374612242"]
@@ -407,7 +407,7 @@ def handle_attack(message):
     # Parse the command
     command = message.text.split()
     if len(command) != 4:
-        bot.reply_to(message, "⚠️ 𝐈𝐧𝐯𝐚𝐥𝐢𝐝 𝐅𝐨𝐫𝐦𝐚𝐭 ⚠️\n\n✅ 𝐔𝐬𝐚𝐠𝐞 :- /attack <𝐡𝐨𝐬𝐭> <𝐩𝐨𝐫𝐭> <𝐭𝐢𝐦𝐞>\n\n✅ 𝐅𝐨𝐫 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 :- /attack 20.198.75.63 21576 180")
+        bot.reply_to(message, "⚠️ 𝐈𝐧𝐯𝐚𝐥𝐢𝐝 𝐅𝐨𝐫𝐦𝐚𝐭 ⚠️\n\n✅ 𝐔𝐬𝐚𝐠𝐞 :- /bgmi <𝐡𝐨𝐬𝐭> <𝐩𝐨𝐫𝐭> <𝐭𝐢𝐦𝐞>\n\n✅ 𝐅𝐨𝐫 𝐄𝐱𝐚𝐦𝐩𝐥𝐞 :- /bgmi 20.198.75.63 21576 180")
         return
 
     target = command[1]
